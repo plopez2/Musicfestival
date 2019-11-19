@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #0CA88C;
+	font-family: Gotham, "Helvertica Neue", Helvertica, Arial, "sans-serif";
+
+}
+
+.bigbox {
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	float: left;
+	
+}
+
+.content {
+	margin-top: 20px;
+	background-color: #ABC;
+	
+}
+
+.bigbox2 {
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	float: left;
+	margin-left: 20px;
+
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	width: 160px;
+	height: 50px;
+	
+}
+
+.cimage {
+	background-image: url( "edc4.jpg");
+	color: #570404;
+	transition: all 2s;
+	
+}
+
+.cimage:hover {
+	background-image: none;
+	color: #FFED80;
+}
+
+div {
+	background-color: hidden;
+	width: 250px;
+	background-color: #000589;
+	color: #FFF;
+	margin-top: 50px;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("edc2.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
